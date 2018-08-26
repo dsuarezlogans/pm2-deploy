@@ -1,0 +1,30 @@
+{
+  "name": "pm2-deploy",
+  "version": "1.0.0",
+  "description": "A simple rest api for testing pm2 scaling with ci/cd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsuarezlogans/pm2-deploy.git"
+  },
+  "keywords": [
+    "pm2",
+    "node",
+    "express",
+    "ci",
+    "cd"
+  ],
+  "author": "Danny Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsuarezlogans/pm2-deploy/issues"
+  },
+  "homepage": "https://github.com/dsuarezlogans/pm2-deploy#readme",
+  "devDependencies": {
+    "express": "4.16.3",
+    "morgan": "1.9.0"
+  }
+}
