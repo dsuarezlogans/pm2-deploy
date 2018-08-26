@@ -2,7 +2,8 @@ module.exports = {
   apps : [{
     name      : 'api',
     script    : 'index.js',
-    instances: "max",
+    exec_mode: 'cluster',
+    instances: '0',
     env: {
       NODE_ENV: 'development',
       PORT: 3000
