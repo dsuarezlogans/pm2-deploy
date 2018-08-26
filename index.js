@@ -9,7 +9,10 @@ app.get('/', (req, res) => {
   res.status(200).send('Hello world again!!');
 });
 
-const server = require('http').createServer(app)
+const server = require('http').createServer(app);
+
 server.listen(port, () => {
-  console.log('Express server listening on port ' + server.address().port);
+  console.log(`Express server listening on port ${server.address().port}`);
 });
+
+module.exports = app;
